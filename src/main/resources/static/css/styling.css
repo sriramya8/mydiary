@@ -1,0 +1,121 @@
+/* src/main/resources/static/css/styling.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #4CAF50;
+    font-size: 36px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #1a73e8;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button Styles */
+.button-container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.add-memory-button {
+    background-color: #4CAF50;
+}
+
+.add-memory-button:hover {
+    background-color: #45a049;
+}
+
+.signout-button {
+    background-color: #e74c3c;
+}
+
+.signout-button:hover {
+    background-color: #c0392b;
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #4CAF50;
+    font-weight: bold;
+    text-align: left;
+}
+
+thead th {
+    padding: 12px;
+    text-align: center;
+}
+
+tbody td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+tbody td a {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 4px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    color: #333;
+}
+
+tbody td a:hover {
+    background-color: #ddd;
+}
+
+/* Message Styles */
+tr {
+    background-color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+h4 {
+    text-align: center;
+    color: #e74c3c;
+    font-size: 18px;
+}
